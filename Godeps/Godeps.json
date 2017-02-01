@@ -1,0 +1,61 @@
+{
+	"ImportPath": "github.com/divyag9/etcd",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v74",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/coreos/etcd/client",
+			"Comment": "v3.1.0-rc.0-122-g89107a4",
+			"Rev": "89107a49faea66e8e934920ebe817ffc76cd869c"
+		},
+		{
+			"ImportPath": "github.com/coreos/etcd/pkg/pathutil",
+			"Comment": "v3.1.0-rc.0-122-g89107a4",
+			"Rev": "89107a49faea66e8e934920ebe817ffc76cd869c"
+		},
+		{
+			"ImportPath": "github.com/coreos/etcd/pkg/types",
+			"Comment": "v3.1.0-rc.0-122-g89107a4",
+			"Rev": "89107a49faea66e8e934920ebe817ffc76cd869c"
+		},
+		{
+			"ImportPath": "github.com/ugorji/go/codec",
+			"Rev": "b94837a2404ab90efe9289e77a70694c355739cb"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/cast5",
+			"Rev": "ca7e7f10cb9fd9c1a6ff7f60436c086d73714180"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp",
+			"Rev": "ca7e7f10cb9fd9c1a6ff7f60436c086d73714180"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/armor",
+			"Rev": "ca7e7f10cb9fd9c1a6ff7f60436c086d73714180"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/elgamal",
+			"Rev": "ca7e7f10cb9fd9c1a6ff7f60436c086d73714180"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/errors",
+			"Rev": "ca7e7f10cb9fd9c1a6ff7f60436c086d73714180"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/packet",
+			"Rev": "ca7e7f10cb9fd9c1a6ff7f60436c086d73714180"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/s2k",
+			"Rev": "ca7e7f10cb9fd9c1a6ff7f60436c086d73714180"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "961116aeebe66bfb58bb4d51818c70d256acbbb8"
+		}
+	]
+}
